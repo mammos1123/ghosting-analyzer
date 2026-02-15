@@ -57,7 +57,11 @@ partial failures, simulating realistic production scenarios.
 - Production-ready backend structure
 - Error handling and fallback mechanisms implemented
 
+- <img width="1902" height="936" alt="d256c4cf-3c5a-4ba7-be0c-b60f9831b2b2" src="https://github.com/user-attachments/assets/91e45529-60ee-4774-893f-d65100adb459" />
+
+
 ---
 
 ## 🧑‍💻 Author
 **Mustafa Kadak**
+
